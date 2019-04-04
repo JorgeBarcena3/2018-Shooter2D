@@ -1,0 +1,11 @@
+S1. Juego 2D. -- ¡PROYECTO EN 2D!
+
+	Cañon, parte abajo pantalla.
+	Objetos pasando de izquierda a derecha.
+	Se dispara hacia donde se clica el raton (Hacia el cursor)
+	Proyectil colisiona con algun objeto --> El objeto cae con fisicas y le quita salud (En funcion del area de impacto, varios boxCollider) -- Jerarquia
+	Aviones se spawnean aleatoriamente desde varios puntos (Rango de Y)
+	Aviones cuando llegan  a una X determinada, se eliminan, si no ha sido derribada.
+
+	ScreenToWorldPoint();
+	Transform.lookAt();
